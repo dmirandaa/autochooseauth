@@ -1,0 +1,329 @@
+{
+    "title_EMPTYPASSWORD": {
+        "pt-br": "A senha é nula"
+    },
+    "descr_EMPTYPASSWORD": {
+        "pt-br": "Sua conta tem uma senha vazia. Por favor, recupere a senha para criar uma nova."
+    },
+    "title_WRONGUSERPASS": {
+        "pt-br": "Senha incorreta"
+    },
+    "descr_WRONGUSERPASS": {
+        "pt-br": "O usuário e a senha que você digitou não coincidem. Tente novamente."
+    },
+    "title_ACCOUNTINACTIVE": {
+        "pt-br": "Conta inativa"
+    },
+    "descr_ACCOUNTINACTIVE": {
+        "pt-br": "Sua conta está inativa. Verifique a página de dúvidas."
+    },
+    "title_EMAILNOTVALIDATE": {
+        "pt-br": "E-mail não validado"
+    },
+    "descr_EMAILNOTVALIDATE": {
+        "pt-br": "Seu endereço de e-mail não foi validado. Por favor, verifique os procedimentos para validação."
+    },
+    "title_PWDNEEDCHANGE": {
+        "pt-br": "Alterar senha"
+    },
+    "descr_PWDNEEDCHANGE": {
+        "pt-br": "Você está usando uma senha gerada automaticamente. Você deve alterar antes de continuar. Por favor, verifique os procedimentos para alteração."
+    },
+    "error_header": {
+        "pt-br": "SimpleSAMLphp error"
+    },
+    "report_trackid": {
+        "pt-br": "If you report this error, please also report this tracking number which makes it possible to locate your session in the logs available to the system administrator:"
+    },
+    "debuginfo_header": {
+        "pt-br": "Debug information"
+    },
+    "debuginfo_text": {
+        "pt-br": "The debug information below may be of interest to the administrator \/ help desk:"
+    },
+    "report_header": {
+        "pt-br": "Report errors"
+    },
+    "report_text": {
+        "pt-br": "Optionally enter your email address, for the administrators to be able contact you for further questions about your issue:"
+    },
+    "report_email": {
+        "pt-br": "E-mail address:"
+    },
+    "report_explain": {
+        "pt-br": "Explain what you did when this error occurred..."
+    },
+    "report_submit": {
+        "pt-br": "Send error report"
+    },
+    "howto_header": {
+        "pt-br": "How to get help"
+    },
+    "howto_text": {
+        "pt-br": "This error probably is due to some unexpected behaviour or to misconfiguration of SimpleSAMLphp. Contact the administrator of this login service, and send them the error message above."
+    },
+    "title_CREATEREQUEST": {
+        "pt-br": "Error creating request"
+    },
+    "descr_CREATEREQUEST": {
+        "pt-br": "An error occurred when trying to create the SAML request."
+    },
+    "title_DISCOPARAMS": {
+        "pt-br": "Bad request to discovery service"
+    },
+    "descr_DISCOPARAMS": {
+        "pt-br": "The parameters sent to the discovery service were not according to specifications."
+    },
+    "title_GENERATEAUTHNRESPONSE": {
+        "pt-br": "Could not create authentication response"
+    },
+    "descr_GENERATEAUTHNRESPONSE": {
+        "pt-br": "When this identity provider tried to create an authentication response, an error occurred."
+    },
+    "title_LDAPERROR": {
+        "pt-br": "LDAP Error"
+    },
+    "descr_LDAPERROR": {
+        "pt-br": "LDAP is the user database, and when you try to login, we need to contact an LDAP database. An error occurred when we tried it this time."
+    },
+    "title_LOGOUTREQUEST": {
+        "pt-br": "Error processing the Logout Request"
+    },
+    "descr_LOGOUTREQUEST": {
+        "pt-br": "An error occurred when trying to process the Logout Request."
+    },
+    "title_METADATA": {
+        "pt-br": "Error loading metadata"
+    },
+    "descr_METADATA": {
+        "pt-br": "There is some misconfiguration of your SimpleSAMLphp installation. If you are the administrator of this service, you should make sure your metadata configuration is correctly setup."
+    },
+    "title_NOACCESS": {
+        "pt-br": "No access"
+    },
+    "descr_NOACCESS": {
+        "pt-br": "This endpoint is not enabled. Check the enable options in your configuration of SimpleSAMLphp."
+    },
+    "title_NORELAYSTATE": {
+        "pt-br": "No RelayState"
+    },
+    "descr_NORELAYSTATE": {
+        "pt-br": "The initiator of this request did not provide a RelayState parameter indicating where to go next."
+    },
+    "title_PROCESSASSERTION": {
+        "pt-br": "Error processing response from Identity Provider"
+    },
+    "descr_PROCESSASSERTION": {
+        "pt-br": "We did not accept the response sent from the Identity Provider."
+    },
+    "title_PROCESSAUTHNREQUEST": {
+        "pt-br": "Error processing request from Service Provider"
+    },
+    "descr_PROCESSAUTHNREQUEST": {
+        "pt-br": "This Identity Provider received an Authentication Request from a Service Provider, but an error occurred when trying to process the request."
+    },
+    "title_SLOSERVICEPARAMS": {
+        "pt-br": "No SAML message provided"
+    },
+    "descr_SLOSERVICEPARAMS": {
+        "pt-br": "You accessed the SingleLogoutService interface, but did not provide a SAML LogoutRequest or LogoutResponse. Please note that this endpoint is not intended to be accessed directly."
+    },
+    "title_ACSPARAMS": {
+        "pt-br": "No SAML response provided"
+    },
+    "descr_ACSPARAMS": {
+        "pt-br": "You accessed the Assertion Consumer Service interface, but did not provide a SAML Authentication Response. Please note that this endpoint is not intended to be accessed directly."
+    },
+    "title_SSOPARAMS": {
+        "pt-br": "No SAML request provided"
+    },
+    "descr_SSOPARAMS": {
+        "pt-br": "You accessed the Single Sign On Service interface, but did not provide a SAML Authentication Request. Please note that this endpoint is not intended to be accessed directly."
+    },
+    "title_ARSPARAMS": {
+        "pt-br": "No SAML message provided"
+    },
+    "descr_ARSPARAMS": {
+        "pt-br": "You accessed the Artifact Resolution Service interface, but did not provide a SAML ArtifactResolve message. Please note that this endpoint is not intended to be accessed directly."
+    },
+    "title_CASERROR": {
+        "pt-br": "CAS Error"
+    },
+    "descr_CASERROR": {
+        "pt-br": "Error when communicating with the CAS server."
+    },
+    "title_CONFIG": {
+        "pt-br": "Configuration error"
+    },
+    "descr_CONFIG": {
+        "pt-br": "SimpleSAMLphp appears to be misconfigured."
+    },
+    "title_NOTVALIDCERT": {
+        "pt-br": "Invalid certificate"
+    },
+    "descr_NOTVALIDCERT": {
+        "pt-br": "You did not present a valid certificate."
+    },
+    "title_NOTSET": {
+        "pt-br": "Password not set"
+    },
+    "descr_NOTSET": {
+        "pt-br": "The password in the configuration (auth.adminpassword) is not changed from the default value. Please edit the configuration file."
+    },
+    "errorreport_header": {
+        "pt-br": "Error report sent"
+    },
+    "errorreport_text": {
+        "pt-br": "The error report has been sent to the administrators."
+    },
+    "title_LOGOUTINFOLOST": {
+        "pt-br": "Logout information lost"
+    },
+    "descr_LOGOUTINFOLOST": {
+        "pt-br": "The information about the current logout operation has been lost. You should return to the service you were trying to log out from and try to log out again. This error can be caused by the logout information expiring. The logout information is stored for a limited amout of time - usually a number of hours. This is longer than any normal logout operation should take, so this error may indicate some other error with the configuration. If the problem persists, contact your service provider."
+    },
+    "title_UNHANDLEDEXCEPTION": {
+        "pt-br": "Unhandled exception"
+    },
+    "descr_UNHANDLEDEXCEPTION": {
+        "pt-br": "An unhandled exception was thrown."
+    },
+    "title_NOTFOUND": {
+        "pt-br": "Page not found"
+    },
+    "descr_NOTFOUND": {
+        "pt-br": "The given page was not found. The URL was: %URL%"
+    },
+    "title_NOTFOUNDREASON": {
+        "pt-br": "Page not found"
+    },
+    "descr_NOTFOUNDREASON": {
+        "pt-br": "The given page was not found. The reason was: %REASON%  The URL was: %URL%"
+    },
+    "title_BADREQUEST": {
+        "pt-br": "Bad request received"
+    },
+    "descr_BADREQUEST": {
+        "pt-br": "There is an error in the request to this page. The reason was: %REASON%"
+    },
+    "title_RESPONSESTATUSNOSUCCESS": {
+        "pt-br": "Error received from Identity Provider"
+    },
+    "descr_RESPONSESTATUSNOSUCCESS": {
+        "pt-br": "The Identity Provider responded with an error. (The status code in the SAML Response was not success)"
+    },
+    "title_NOCERT": {
+        "pt-br": "No certificate"
+    },
+    "descr_NOCERT": {
+        "pt-br": "Authentication failed: your browser did not send any certificate"
+    },
+    "title_INVALIDCERT": {
+        "pt-br": "Invalid certificate"
+    },
+    "descr_INVALIDCERT": {
+        "pt-br": "Authentication failed: the certificate your browser sent is invalid or cannot be read"
+    },
+    "title_UNKNOWNCERT": {
+        "pt-br": "Unknown certificate"
+    },
+    "descr_UNKNOWNCERT": {
+        "pt-br": "Authentication failed: the certificate your browser sent is unknown"
+    },
+    "title_USERABORTED": {
+        "pt-br": "Authentication aborted"
+    },
+    "descr_USERABORTED": {
+        "pt-br": "The authentication was aborted by the user"
+    },
+    "title_NOSTATE": {
+        "pt-br": "State information lost"
+    },
+    "descr_NOSTATE": {
+        "pt-br": "State information lost, and no way to restart the request"
+    },
+    "title_METADATANOTFOUND": {
+        "pt-br": "Metadata not found"
+    },
+    "descr_METADATANOTFOUND": {
+        "pt-br": "Unable to locate metadata for %ENTITYID%"
+    },
+    "title_AUTHSOURCEERROR": {
+        "pt-br": "Erro no método de autenticação"
+    },
+    "descr_AUTHSOURCEERROR": {
+        "pt-br": "Erro no método de autenticação %AUTHSOURCE%. O erro foi: %REASON%"
+    },
+    "title_MEMCACHEDOWN": {
+        "pt-br": "Cannot retrieve session data"
+    },
+    "descr_MEMCACHEDOWN": {
+        "pt-br": "Your session data cannot be retrieved right now due to technical difficulties. Please try again in a few minutes."
+    },
+    "title_INVALID_DSN": {
+        "pt-br": "Configuração de DSN é inválida"
+    },
+    "descr_INVALID_DSN": {
+        "pt-br": "O dsn informado no config é inválido"
+    },
+    "title_INVALID_DSN_USERNAME": {
+        "pt-br": "Nome de usuário no DSN é inválido"
+    },
+    "descr_INVALID_DSN_USERNAME": {
+        "pt-br": "O username informado no config é inválido"
+    },
+    "title_INVALID_DSN_PASSWORD": {
+        "pt-br": "Senha no DSN é inválida"
+    },
+    "descr_INVALID_DSN_PASSWORD": {
+        "pt-br": "A senha informada no config é inválida"
+    },
+    "title_INVALID_SITEKEY": {
+        "pt-br": "Sitekey é inválido"
+    },
+    "descr_INVALID_SITEKEY": {
+        "pt-br": "O sitekey informado no config é inválido"
+    },
+    "title_INVALID_LDAP_HOSTNAME": {
+        "pt-br": "LDAP é inválido"
+    },
+    "descr_INVALID_LDAP_HOSTNAME": {
+        "pt-br": "O hostname do LDAP não foi informado"
+    },
+    "title_INVALID_LDAP_ATTRIBUTES": {
+        "pt-br": "Atributos do LDAP são inválidos"
+    },
+    "descr_INVALID_LDAP_ATTRIBUTES": {
+        "pt-br": "Os atributos do LDAP não foram definidos na configuração"
+    },
+    "title_INVALID_LDAP_SEARCH_BASE": {
+        "pt-br": "search.base do LDAD é inválido"
+    },
+    "descr_INVALID_LDAP_SEARCH_BASE": {
+        "pt-br": "O atributo do LDAP search.base não foi definido na configuração"
+    },
+    "title_INVALID_LDAP_SEARCH_ATTRIBUTES": {
+        "pt-br": "search.attributes do LDAD é inválido"
+    },
+    "descr_INVALID_LDAP_SEARCH_ATTRIBUTES": {
+        "pt-br": "O atributo do LDAP search.attributes não foi definido na configuração"
+    },
+    "title_INVALID_LDAP_SEARCH_USERNAME": {
+        "pt-br": "search.username do LDAP é inválido"
+    },
+    "descr_INVALID_LDAP_SEARCH_USERNAME": {
+        "pt-br": "O atributo do LDAP search.username não foi definido na configuração"
+    },
+    "title_INVALID_LDAP_SEARCH_PASSWORD": {
+        "pt-br": "search.password do LDAP é inválido"
+    },
+    "descr_INVALID_LDAP_SEARCH_PASSWORD": {
+        "pt-br": "O atributo do LDAP search.password não foi definido na configuração"
+    },
+    "title_ERROR_DO_LOGIN_DB_EXECUTE": {
+        "pt-br": "Ocorreu um erro na consulta"
+    },
+    "descr_ERROR_DO_LOGIN_DB_EXECUTE": {
+        "pt-br": "Erro ao consultar base de dados. Impossível continuar"
+    }
+}
